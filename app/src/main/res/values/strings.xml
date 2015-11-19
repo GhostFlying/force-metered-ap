@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ForceMeteredAP</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_app_name" translatable="false">@string/app_name</string>
+    <string name="default_modification_status" translatable="false">@string/status_not_modified</string>
+    <string name="status_not_modified">not restricted</string>
+    
+    <string name="status_metered_force_not">always not metered</string>
+    <string name="status_metered_force">always metered</string>
+    <string name="status_metered_auto">auto(obey the ap setting)</string>
+    <string name="metered_dialog_title">Set metered restricted</string>
+    
+    <array name="status_metered_array">
+        <item>@string/status_not_modified</item>
+        <item>@string/status_metered_force_not</item>
+        <item>@string/status_metered_force</item>
+        <item>@string/status_metered_auto</item>
+    </array>
+</resources>
